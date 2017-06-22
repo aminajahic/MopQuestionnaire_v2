@@ -1,0 +1,11 @@
+{>"layout.express"/}
+{<body}
+  {#testovi}
+      <div class="well">
+      <h4>{nazivtesta}<button class="btn btn-default pull-right get-questions"
+      data-testid="{testid}">
+      <span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+      </h4>
+      </div>
+  {/testovi}
+{/body}

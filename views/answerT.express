@@ -1,0 +1,11 @@
+{>"answerTLayout.express"/}
+{<body}
+
+  {#odgovori}
+
+      <div class="well">
+      <label hidden='true'>{tekstodgovora}</label>
+      <label><input type="text" tagName="odg" name={pitanjeid} id={odgovorid}></label>
+      </div>
+  {/odgovori}
+{/body}

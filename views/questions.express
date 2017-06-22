@@ -1,0 +1,31 @@
+{>"questLayout.express"/}
+{<body}
+  {#pitanja}
+      <div class="well divPitOdg"  >
+    <button class="btn btn-default pull-right get-answers"  data-pitanjeid="{pitanjeid}" data-tippitanjaid="{tippitanjaid}"></button>
+      <h4 id={pitanjeid}>{tekstpitanja} </h4>
+      <div id="tagOdgovori_{pitanjeid}">
+      </div>
+      </div>
+  {/pitanja
+
+  <div id="tagRegistracija">
+
+      <label><b>Ime</b></label>
+        <br/>
+      <input type="text" class="col-md-12"  placeholder="Unesite ime" name="uname" required>
+        <br/>
+        <br/>
+    <label><b>Prezime</b></label>
+        <br/>
+    <input class="col-md-12" type="text" placeholder="Unesite prezime" name="lname" required>
+        <br/>
+        <br/>
+    <label><b>Email</b></label>
+        <br/>
+    <input type="text" class="col-md-12"   placeholder="Unesite email" name="email" required>
+        <br/>
+        <br/>
+  <button class="btn btn-primary btn-block odg-snimi">Snimi</input>
+</div>
+{/body}

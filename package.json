@@ -1,0 +1,26 @@
+{
+  "name": "mop",
+  "version": "1.0.0",
+  "description": "MOP questionnare",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "*",
+    "consolidate": "*",
+    "dustjs-linkedin": "*",
+    "dust": "*",
+    "dustjs-helpers": "*",
+    "pg": "*",
+    "express": "^4.15.3",
+    "sequelize": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amina",
+  "license": "ISC",
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/username/repository.git"
+}
+}
