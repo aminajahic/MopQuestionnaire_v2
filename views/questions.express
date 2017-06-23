@@ -7,7 +7,7 @@
       <div id="tagOdgovori_{pitanjeid}">
       </div>
       </div>
-  {/pitanja
+  {/pitanja}
 
   <div id="tagRegistracija">
 
