@@ -23,6 +23,8 @@ success: function(result){
     });
 });
 
+
+
 $(document).ready(function(){
 $('.odg-snimi').on("click",function(){
 var odgovoriCheckbox=$("input[type='checkbox']:checked");

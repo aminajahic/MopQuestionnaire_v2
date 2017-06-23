@@ -2,7 +2,8 @@
 {<body}
   {#pitanja}
       <div class="well divPitOdg"  >
-    <button class="btn btn-default pull-right get-answers"  data-pitanjeid="{pitanjeid}" data-tippitanjaid="{tippitanjaid}"></button>
+    <button class="btn btn-default pull-right get-answers"  data-pitanjeid="{pitanjeid}" data-tippitanjaid="{tippitanjaid}">
+    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></button>
       <h4 id={pitanjeid}>{tekstpitanja} </h4>
       <div id="tagOdgovori_{pitanjeid}">
       </div>

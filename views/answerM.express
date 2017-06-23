@@ -1,7 +1,7 @@
 {>"answersMLayout.express"/}
 {<body}
   {#odgovori}
-      <div class="well">
+      <div class="well pitanjediv">
       <div class="checkbox">
 
       <label><input type="checkbox" name={pitanjeid} id="{odgovorid}" >{tekstodgovora}</label>

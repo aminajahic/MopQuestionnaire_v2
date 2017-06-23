@@ -3,7 +3,7 @@
 
   {#odgovori}
 
-      <div class="well">
+      <div class="well pitanjediv">
       <label hidden='true'>{tekstodgovora}</label>
       <label><input type="text" tagName="odg" name={pitanjeid} id={odgovorid}></label>
       </div>

@@ -1,7 +1,7 @@
 {>"answersLayout.express"/}
 {<body}
   {#odgovori}
-      <div class="well">
+      <div class="well pitanjediv">
       <div class="radio">
       <label><input type="radio" name={pitanjeid} id={odgovorid}>{tekstodgovora}</label>
         </div>
